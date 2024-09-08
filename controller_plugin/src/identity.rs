@@ -4,7 +4,7 @@ use tonic::{Request, Response, Status};
 use controller_plugin::identity_server::Identity;
 pub use controller_plugin::identity_server::IdentityServer;
 use controller_plugin::{
-    controller_service_capability, plugin_capability, GetPluginCapabilitiesRequest,
+    plugin_capability, GetPluginCapabilitiesRequest,
     GetPluginCapabilitiesResponse, GetPluginInfoRequest, GetPluginInfoResponse, PluginCapability,
     ProbeRequest, ProbeResponse,
 };
